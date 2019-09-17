@@ -347,7 +347,7 @@ public class TestFragment extends ListFragment {
                     }
                 }
             } else {
-                Toast.makeText(getContext(), "拿到的不是拉力传感器的数据", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "拿到的不是压力传感器的数据", Toast.LENGTH_SHORT).show();
             }
         } else {
             Toast.makeText(getContext(), "串口数据为空", Toast.LENGTH_SHORT).show();
@@ -428,7 +428,7 @@ public class TestFragment extends ListFragment {
             if (i1 == SensorInf.SEARCHING) {
                 switch (id) {
                     case R.id.sv_laLi:
-                        Toast.makeText(getContext(), "拉力传感器断开！", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getContext(), "压力传感器断开！", Toast.LENGTH_SHORT).show();
                         isConnected = false;
                         break;
 

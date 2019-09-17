@@ -54,7 +54,7 @@
                     android:layout_marginLeft="@dimen/item_offset_32dp"
                     android:gravity="center"
                     android:paddingRight="@dimen/item_offset_5dp"
-                    android:text="力" />
+                    android:text="压力" />
 
                 <TextView
                     style="@style/TextView_laber_inf"
@@ -70,7 +70,7 @@
                 <TextView
                     style="@style/TextView_laber_inf"
                     android:layout_marginLeft="10dp"
-                    android:text="kN" />
+                    android:text="MPa" />
 
                 <Button
                     android:id="@+id/btn_clearLi"
@@ -103,7 +103,7 @@
                     android:layout_width="110dp"
                     android:gravity="center"
                     android:paddingRight="@dimen/item_offset_5dp"
-                    android:text="最大力" />
+                    android:text="最大压力" />
 
                 <TextView
                     style="@style/TextView_laber_inf"
@@ -119,7 +119,7 @@
                 <TextView
                     style="@style/TextView_laber_inf"
                     android:layout_marginLeft="10dp"
-                    android:text="kN" />
+                    android:text="MPa" />
 
                 <Button
                     android:id="@+id/btn_clearMaxLi"
@@ -166,7 +166,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:gravity="center"
-                    android:text="力"
+                    android:text="压力(MPa)"
                     android:textColor="#000" />
 
 

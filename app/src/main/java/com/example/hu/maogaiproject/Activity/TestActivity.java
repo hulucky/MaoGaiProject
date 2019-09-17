@@ -77,7 +77,7 @@ public class TestActivity extends AppCompatActivity {
             }
         });
         toolbar.setTitleTextColor(Color.WHITE);
-        this.setTitle("力的测试");
+        this.setTitle("压力测试");
 
         if (Build.VERSION_CODES.M > Build.VERSION.SDK_INT) { //小于6.0
             EyesUtils.setStatusBarColorTw(this, ContextCompat.getColor(this, R.color.orange_my));    //设置标题栏透明白，字体为黑色

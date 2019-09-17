@@ -11,8 +11,8 @@ android {
         applicationId "com.example.hu.maogaiproject"
         minSdkVersion 19
         targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
+        versionCode 4
+        versionName "V1.2019.09.02.02"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
     }
